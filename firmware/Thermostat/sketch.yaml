@@ -1,0 +1,10 @@
+# Default target for arduino-cli compile/upload run from this sketch folder.
+profiles:
+  nano:
+    fqbn: arduino:avr:nano
+    platforms:
+      - platform: arduino:avr (1.8.8)
+
+default_profile: nano
+default_fqbn: arduino:avr:nano
+default_port: /dev/ttyUSB0
